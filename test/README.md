@@ -12,3 +12,4 @@ http://www.dldigitalshots.com/angularjs/angularLazyLoadingPages/
 new line here
 line 2 here
 line 3
+line 4 here
