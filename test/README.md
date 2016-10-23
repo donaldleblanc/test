@@ -11,3 +11,4 @@ See a demo at the following internet address
 http://www.dldigitalshots.com/angularjs/angularLazyLoadingPages/
 new line here
 line 2 here
+line 3
