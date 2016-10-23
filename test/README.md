@@ -9,3 +9,4 @@ This speed up the files transfer as you only start with the minimum files downlo
 
 See a demo at the following internet address
 http://www.dldigitalshots.com/angularjs/angularLazyLoadingPages/
+new line here
