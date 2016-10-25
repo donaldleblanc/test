@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+<html manifest="knockoutjssample.appcache" lang="en" xml:lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title class="i18n" data-i18n="app.name"></title>
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,">
+
+<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- jasny slider -->
+<link href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet" media="screen">
+
+<link rel="shortcut icon" href="lib/KnockoutJSSample/images/faviconCamera.png">
+
+<link rel="apple-touch-icon" href="lib/KnockoutJSSample/images/eye_transparent.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="lib/KnockoutJSSample/images/eye_transparent.png.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="lib/KnockoutJSSample/images/eye_transparent.png.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="lib/KnockoutJSSample/images/eye_transparent.png.png" />
+<link rel="apple-touch-icon" sizes="58x58" href="lib/KnockoutJSSample/images/eye_transparent.png.png" />
+
+
+<link rel="stylesheet" href="lib/KnockoutJSSample/css/example.css" />
+<link rel="stylesheet" href="lib/KnockoutJSSample/css/customImgListMultiInstance.css" />
+<link rel="stylesheet" href="lib/KnockoutJSSample/css/hoverEffectbettercenter.css" />
+
+<link href="lib/KnockoutJSSample/css/customCarousel.css" rel="stylesheet">
+<link rel="stylesheet" href="lib/KnockoutJSSample/css/customImgList.css" />
+
+<script type="text/javascript" src="app/require-config.js"></script>
+<script type="text/javascript" data-main="app/startup" src="lib/require/require-2.1.16.js"></script>
+
+</head>
+<body>
+<div id="darkBackground" class=""></div>
+
+
+<!-- custom Component header  -->
+<div>
+	<div data-bind="component: headerPage"></div>
+</div>
+
+<div>
+	<div data-bind="component: navigationPage"></div>
+</div>
+
+<!-- custom Component list  -->
+<div class='content'>
+<!-- custom Component list  -->
+	<div data-bind="component: currentPage"></div>
+</div>
+
+
+<!-- custom Component side  -->
+<div>
+	<div data-bind="component: sidePage"></div>
+</div>
+
+
+<!-- custom Component footer  -->
+<div class="footer-component">
+	<div data-bind="component: footerPage"></div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 data-i18n="app.modal_label_title" class="i18n modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="modal-body">
+        <div>code here</div>
+      </div>
+      <div class="modal-footer">
+        <button data-i18n="app.modal_button_close" type="button" class="i18n btn btn-default" data-dismiss="modal"></button>
+        <button data-i18n="app.modal_button_save" type="button" class="i18n btn btn-primary"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="lib/KnockoutJSSample/js/util.js"></script>
+<script src="lib/jquery/jquery-2.1.4.min.js"></script> <!-- jquery must be before bootstrap -->
+<script src="lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+<script src="lib/KnockoutJSSample/js/example.js"></script>
+<script src="lib/i18next/i18next-1.10.1.min.js"></script> <!--  uses jquery -->
+
+
+</body>
+</html>
